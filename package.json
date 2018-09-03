@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Jeff's Burger App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffONGPH/burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffONGPH/burger/issues"
+  },
+  "homepage": "https://github.com/JeffONGPH/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "handlebars": "^4.0.11",
+    "mysql": "^2.16.0"
+  }
+}
