@@ -1,7 +1,7 @@
 var express = require("express");
 var router = express.Router();
 
-// database model
+//Database model
 var burger = require("../models/burger.js");
 
 //Create the router and the routes
