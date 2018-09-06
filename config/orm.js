@@ -1,6 +1,6 @@
 var connection = require("../config/connection.js");
 
-// create an array of question marks ["?", "?", "?"] for placeholder search values and turns it into a string. ["?", "?", "?"].toString() => "?,?,?";
+//create an array of question marks ["?", "?", "?"] for placeholder search values and turns it into a string. ["?", "?", "?"].toString() => "?,?,?";
 
 function printQuestionMarks(num) {
   var arr = [];
@@ -11,7 +11,7 @@ function printQuestionMarks(num) {
   return arr.toString();
 }
 
-// convert object key/value pairs to SQL syntax
+//convert object key/value pairs to SQL syntax
 function objToSql(ob) {
   var arr = [];
   // loop through the keys and push the key/value as a string into the array
