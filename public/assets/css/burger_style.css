@@ -1,0 +1,34 @@
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin-left: 25%;
+}
+
+ul li {
+  justify-content: space-between;
+  display: flex;
+}
+
+.devour-btn, 
+#submit-burger {
+  background-color: blue;
+}
+
+.devour-btn:hover, 
+#submit-burger:hover {
+  background-color: red;
+}
+
+#input-label {
+  font-size: 50px;
+}
+form {
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.display-4 {
+  color:red;
+}
+
