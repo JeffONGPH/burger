@@ -5,7 +5,7 @@ var PORT = process.env.PORT || 8080;
 
 var app = express();
 
-//serve static content for the app and set up body-parser
+//Serve static content for the app and set up body-parser
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({
   extended: false
@@ -24,6 +24,6 @@ var routes = require("./controllers/burgers_controller.js");
 app.use(routes);
 
 //Listener
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log("App now listening at localhost:" + PORT);
 });
