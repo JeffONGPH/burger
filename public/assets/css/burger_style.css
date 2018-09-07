@@ -1,3 +1,6 @@
+img {
+  border: solid 20px red;
+}
 ul {
   text-align: center;
   list-style: none;
